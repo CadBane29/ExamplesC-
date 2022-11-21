@@ -89,7 +89,7 @@ public class Example
         int ctr = 0;
         do{
             ctr++;
-            s = Console.ReadLine();
+            s = Console.ReadLine()!;
             Console.WriteLine("Line {0}: {1}", ctr, s);
         } while (s != null);
         Console.WriteLine("---");
